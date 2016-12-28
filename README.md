@@ -14,8 +14,8 @@ This is what this shim does.
 
 Supported Properties:
 
-- w
-- h
+- width
+- height
 - top
 - bottom
 - left
