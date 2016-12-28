@@ -16,7 +16,7 @@ var virtual_size = function () {
             var w = vw*0.01*width;
             $e.height(w);
         });
-        $.each(['top', 'left', 'right', 'bottom'], function (index, prop) {
+        $.each(['width', 'height', 'top', 'left', 'right', 'bottom'], function (index, prop) {
             $('[s-v'+prop+']').each(function (i,e) {
                 var $e = $(e);
                 var vw = $e.attr('s-v'+prop);
