@@ -9,8 +9,9 @@ a shim for vw
 
 This is what this shim does.
 
-    <div s-vtop="22"></div>
-    <div style="top:22vw"></div> <!-- the same as before, but works on every browser -->
+    <script src="vw.js></script>
+    <div style="top:22vw"></div>
+    <div s-vtop="22"></div> <!-- the same as before, but works on every browser -->
 
 Supported Properties:
 
